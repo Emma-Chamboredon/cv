@@ -1,0 +1,47 @@
+p 
+{
+
+              color: blue;
+
+               font-size : 16px;
+
+               text-align : left;
+}
+h1
+{
+
+               font-size : 18px;
+
+               text-align : center;
+
+}            
+h2
+{
+
+               font-size : 16px;
+
+               text-align : left;
+
+}
+
+h1,h2
+{
+
+               border : 3px blue groove;
+}
+
+@media (max-with : 960px) {
+    .container {
+        width : 700px;
+    }
+}
+@media (max-with : 720px) {
+    .container {
+        width : 500px;
+    }
+}
+@media (max-with : 540px) {
+    .container {
+        width : 300px;
+    }
+}
